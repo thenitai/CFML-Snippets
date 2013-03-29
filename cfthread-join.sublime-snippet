@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<!--- ${1:comment} --->
+<cfthread name="${2:threadname}" action="join" />
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>threadjoin</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.cfml.basic,source.cfscript.cfc,text.html.cfm</scope>
+</snippet>

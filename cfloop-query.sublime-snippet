@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+<!--- ${1:comment} --->
+<cfloop query="${2:queryname}">
+	$SELECTION
+</cfloop>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>loopq</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.cfml.basic,source.cfscript.cfc,text.html.cfm</scope>
+</snippet>

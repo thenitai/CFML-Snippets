@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+<fuseaction name="${1:fuseaction}">
+	${2:code}
+</fuseaction>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>fbaction</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.xml</scope>
+</snippet>

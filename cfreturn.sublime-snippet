@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<!--- Return --->
+<cfreturn ${1:value} />
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>return</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.cfml.basic,source.cfscript.cfc,text.html.cfm</scope>
+</snippet>

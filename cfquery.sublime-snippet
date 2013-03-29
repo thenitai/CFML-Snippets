@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+<cfquery datasource="${1:datasource}" name="${2:name}">
+$SELECTION
+</cfquery>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>query</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.cfml.basic,source.cfscript.cfc,text.html.cfm</scope>
+</snippet>

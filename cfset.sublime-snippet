@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<cfset ${1:variable} = ${2:value}>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>set</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.cfml.basic,source.cfscript.cfc,text.html.cfm</scope>
+</snippet>

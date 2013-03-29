@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<cfinvoke component="${1:value}" method="${2:value}" returnvariable="${3:value}" ${4:value}="${5:value}" $SELECTION />
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>invoke</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.cfml.basic,source.cfscript.cfc,text.html.cfm</scope>
+</snippet>
